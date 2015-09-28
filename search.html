@@ -6,17 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mockup</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="css/bootstrap-override.css" />
-    
+    <link rel="stylesheet" type="text/css" href="style.css"> 
   </head>
 <body>
   <div class="navbar navbar-custom">
     <div class="navbar-inner navbar-custom">
-      <ul class="nav navbar-custom">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
+      <ul class="nav navbar-custom" id="nav">
+        <li><a href="mockup.html">Home</a></li>
+        <li><a href="">New Search</a></li>
+        <li><a href="#">Settings</a></li>
       </ul>
     <h1 class="navbar-h1"> Altruist </h1>
     <a class="navbar-brand" href="index.html"> <img class="navbar-img" src="img/sharing.jpg"></a>
@@ -58,6 +56,15 @@ function initialize() {
         var map = new google.maps.Map(mapCanvas, mapOptions)
 }
 google.maps.event.addDomListener(window, 'load', initialize);
+
+$('li').on("click",function(){
+    $('li').removeClass("active");
+    $(this).addClass("active");
+    console.log("clicked")
+});
+
+
+
 </script>
 </body>
 </html>

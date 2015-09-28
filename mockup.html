@@ -7,17 +7,15 @@
     <title>Mockup</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="css/bootstrap-override.css" /> <!-- Call override CSS second -->
   </head>
 <body>
 <div class="navbar navbar-custom">
   <div class="navbar-inner navbar-custom">
-    <ul class="nav navbar-custom">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Link</a></li>
-      <li><a href="#">Link</a></li>
-    </ul>
-    
+    <ul class="nav navbar-custom" id="nav">
+        <li><a href="mockup.html">Home</a></li>
+        <li><a href="">New Search</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
     <h1 class="navbar-h1"> Altruist </h1>
     <a class="navbar-brand" href="index.html"> <img class="navbar-img" src="img/sharing.jpg"></a>
   </div>
@@ -65,39 +63,33 @@
       <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
     </div><!-- /.carousel -->
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
+    <div class="container instructions-container">
+      <div class="row inner-instructions">
         <div class="span4">
           <img src="img/one.png">
           <h2>Share your Talent</h2>
           <p>Do you play the piano? Can teach how to dance? Or maybe how to cook emapanadas? Great, there are lots of people looking for talented people like you, thanks to our platform you can exhange your time with others.</p>
           
-        </div><!-- /.span4 -->
+        </div>
         <div class="span4">
 
        <img src="img/two.png">
           <h2>Where you'll share</h2>
           <p>You will have to create a profile, explain what you can do, where you operate and the times of the day that suit you better. You'll earn time as you help other altruists. The time you spend helping them will be added to your balance with comments and reviews.</p>
           
-        </div><!-- /.span4 -->
+        </div>
         <div class="span4">
            <img src="img/three.png">
           <h2>Become an Altruist</h2>
           <p>To start enjoying this idea, please sign up and follow the registration steps. The more you participate the more minutes you will have. Invite as many people as possible so more can enjoy our awesome project! </p>
          
-        </div><!-- /.span4 -->
-      </div><!-- /.row -->
+        </div>
+      </div>
 
       <hr class="featurette-divider">
 
       <!-- jumbotron -->
- <div class="container">
+ <div class="container jumbotron-container">
     <div class="jumbotron join-jumbotron">
         <h1>Welcome!</h1>
         <p>Click on the button to join.</p>
@@ -105,17 +97,12 @@
     </div>
 </div>
 
-
-
       <hr class="featurette-divider">
-
-      <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>© 2015 My Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
       </footer>
-
-    </div><!-- /.container -->
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -123,6 +110,7 @@
   $(document).ready(function() {
     $('.carousel').carousel({interval: 7000});
   });
+
 </script>
   </body>
 </html>

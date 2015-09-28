@@ -47,6 +47,25 @@
     font-weight: lighter;
 }
 
+.instructions-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 70%;
+}
+
+.span4{
+    width: 30%;
+    
+}
+
+.inner-instructions {
+    padding-bottom: 40px;
+}
+
+.jumbotron-container {
+    width: 100%;
+}
+
 .join-jumbotron {
     background: url("img/background.jpg");
     color: #FFF;
