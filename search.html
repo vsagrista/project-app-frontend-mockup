@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mockup</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap-override.css" />
+    
+  </head>
+<body>
+  <div class="navbar navbar-custom">
+    <div class="navbar-inner navbar-custom">
+      <ul class="nav navbar-custom">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    <h1 class="navbar-h1"> Altruist </h1>
+    <a class="navbar-brand" href="index.html"> <img class="navbar-img" src="img/sharing.jpg"></a>
+  </div>
+</div>
+
+<div class="container search-area"> 
+  <div class="search-labels">
+    <img class="user-pic" src="img/user.png">
+      <h1>Welcome (User name)</h1>
+      <h2>Find an altruist near you</h2>
+      <form class="form-inline">
+        <input type="text" class="input-small search-input" placeholder="English teacher..."/>
+        <input type="text" class="input-small search-input" placeholder="Gracia, Barcelona..."/>
+        <button type="submit" class="btn">Find!</button>
+      </form>
+    </div>
+    <div id="map"></div>
+</div>
+ <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2015 My Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.carousel').carousel({interval: 7000});
+});
+function initialize() {
+  var mapCanvas = document.getElementById('map');
+  var mapOptions = {
+  center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</body>
+</html>

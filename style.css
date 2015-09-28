@@ -43,19 +43,71 @@
 }
 .navbar-h1 {
     float: right;
-    color:silver;
+    color:#4E4A4A;
+    font-weight: lighter;
 }
 
 .join-jumbotron {
     background: url("img/background.jpg");
     color: #FFF;
     padding: 10px;
-    text-align: ce;
+    
     text-align: center;
 }
 .join-btn{
     width: 150px;
     font-size: 1.2em
+}
+.user-pic {
+    margin-top: 10px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 50px
+}
+
+.search-area {
+    margin-top: 0;
+    width: 100%;
+    background: url("img/bike-background.jpg");
+    text-align: center;
+    margin-top: 20px;
+
+}
+.form-inline > .form-group {
+    vertical-align: top;
+}
+
+.search-input {
+    width: 200px;
+}
+#map {
+    border-radius: 35px;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    /*border: 1px solid grey;*/
+    
+      }
+.search-labels {
+    width: 700px;
+    background-color: transparent;
+    font-style: oblique;
+    /*color:bisque;*/
+    color: #757582;
+    color:black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 0;
+    
+}
+.search-labels h1,h2{
+    font-weight: lighter;
+}
+
+.search-area {
+    margin-top: 0;
 }
 
 
