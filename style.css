@@ -1,0 +1,62 @@
+
+.navbar-custom>li{
+    line-height: 45px;
+}
+.carousel-inner .item{
+    min-height: 650px;
+    max-height: 650px;
+}
+
+.navbar-custom{
+    color: #FFFFFF;
+    border-radius: 0;
+    margin-bottom: auto;
+}
+
+.carousel-h1 {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    color:#B3BABD;
+}
+.carousel p  {
+    color:silver;
+    font-size: 1.5em;
+}
+.carousel-div {
+    height: 110px;
+}
+.btn-large {
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar-brand {
+    float: right;
+    margin-right: 105px;
+}
+.navbar-img {
+    width: 95px;
+    float: right;
+    position: absolute;
+    top: 2px;
+    border-radius: 12px;
+}
+.navbar-h1 {
+    float: right;
+    color:silver;
+}
+
+.join-jumbotron {
+    background: url("img/background.jpg");
+    color: #FFF;
+    padding: 10px;
+    text-align: ce;
+    text-align: center;
+}
+.join-btn{
+    width: 150px;
+    font-size: 1.2em
+}
+
+
+
