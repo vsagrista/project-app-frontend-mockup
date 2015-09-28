@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mockup</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+  </head>
+<body>
+  <div class="navbar navbar-custom">
+    <div class="navbar-inner navbar-custom">
+      <ul class="nav navbar-custom" id="nav">
+        <li><a href="mockup.html">Home</a></li>
+        <li><a href="">New Search</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    <h1 class="navbar-h1"> Altruist </h1>
+    <a class="navbar-brand" href="index.html"> <img class="navbar-img" src="img/sharing.jpg"></a>
+  </div>
+</div>
+
+<div class="container settings-container">
+<div id="top_bar">
+    <p><a data-method="DELETE" href="/users/sign_out" rel="nofollow">Sign out</a></p>
+</div>
+<h2>Edit User</h2>
+
+<form accept-charset="UTF-8" action="/users" class="edit_user" id="edit_user" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="_method" type="hidden" value="put" /><input name="authenticity_token" type="hidden" value="I5u6nLvWQczW5jUNP08WRyMF9Z1nk5125pWDkozRbOA=" /></div>
+  
+
+  <div class="field">
+    <label for="user_email">Email</label><br />
+    <input autofocus="autofocus" id="user_email" name="user[email]" type="email" value="victor@victor" />
+  </div>
+  <div class="field">
+    <label for="user_password">Password</label> <i>(leave blank if you don't want to change it)</i><br />
+    <input autocomplete="off" id="user_password" name="user[password]" type="password" />
+  </div>
+  <div class="field">
+    <label for="user_password_confirmation">Password confirmation</label><br />
+    <input autocomplete="off" id="user_password_confirmation" name="user[password_confirmation]" type="password" />
+  </div>
+  <div class="field">
+    <label for="user_current_password">Current password</label> <i>(we need your current password to confirm your changes)</i><br />
+    <input autocomplete="off" id="user_current_password" name="user[current_password]" type="password" />
+  </div>
+  <div class="field">
+    <label for="user_about">About You</label> <i>(leave blank if you don't want to change it)</i><br />
+    <input autocomplete="off" id="user_about" name="user[current_password]" type="password" />
+  </div>
+  <div class="actions">
+    <input class="settings-buttons" name="commit" type="submit" value="Update" />
+  </div>
+</form>
+<h3>Cancel my account</h3>
+
+<p>Unhappy? <form action="/users" class="button_to" method="post"><div><input name="_method" type="hidden" value="delete" /><input class="settings-buttons" data-confirm="Are you sure?" type="submit" value="Cancel my account" /><input name="authenticity_token" type="hidden" value="I5u6nLvWQczW5jUNP08WRyMF9Z1nk5125pWDkozRbOA=" /></div></form></p>
+
+</div>
+
+
+<footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2015 My Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        
+<script type="text/javascript">
+
+</script>
+</body>
+</html>

@@ -55,7 +55,7 @@
 
 .span4{
     width: 30%;
-    
+
 }
 
 .inner-instructions {
@@ -129,5 +129,16 @@
     margin-top: 0;
 }
 
+.settings-container {
+    width: 80%;
+    margin-top: 4%;
+}
+
+.settings-container input {
+    width: 100%;
+}
+.settings-buttons {
+    width: 30% !important;
+}
 
 
